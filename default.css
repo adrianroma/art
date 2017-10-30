@@ -139,29 +139,9 @@ span{
     
 }
 
-@font-face {
-    font-family: "lobster";
-    src: url("/HTML/font/lobster/lobster.woff") format('woff');
-}
+div{
 
-@font-face {
-    font-family: "bree";
-    src: url("/HTML/font/bree/bree.woff") format('woff');
-}
 
-@font-face {
-    font-family: "courgette";
-    src: url("/HTML/font/courgette/courgette.woff2") format('woff2');
-}
-
-@font-face {
-    font-family: "pacific";
-    src: url("/HTML/font/pacific/pacific.woff2") format('woff2');
-}
-
-.title{
-    
-    font-size:90px;
 }
 
 @media (max-width:800px){
@@ -235,53 +215,10 @@ textarea{
     min-height:20px;
 }
 
-.button-primary{
-    background-color: black;
-}
-
-.message{
-    
-    background-color: white;
-    color: gray;
-    font-family: arial;
-    text-align: center;
-}
 
 
 
 
 
 
-.input_variable{
-    
-   border:2px solid whitesmoke;
-   padding:0px;
-    
-}
 
-.input_variable_values{
-    
-   border:1px solid whitesmoke;
-   
-    
-}
-
-.variable_values{
-   
-   border:2px solid #FF6666;
-   
-}
-
-.add_variable{
-    
-    background-color:#FF6666;
-    color:white;
-    
-}
-
-
-.squema{
-    background-color: whitesmoke;
-    height: 500px;
-    
-}
