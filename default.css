@@ -45,6 +45,7 @@ input:focus{
 }
 
 
+
 select{
     min-width:100%;
     max-width:100%;
@@ -139,39 +140,25 @@ span{
     
 }
 
-div{
 
-
-}
 
 @media (max-width:800px){
     
-    h1{
-        font-size: 60px;
-    }
-    .message{
-        font-size: 20px;
-    }
+
     
 }
 
 @media (max-width:500px){
     
-    h1{
-        font-size: 30px;
-    }
-    
-    .message{
-        font-size: 10px;
-    }
+ 
     
  
     
 }
 
-p{ 
-   
-   
+@media (device-width:500px){
+  
+
 }
 
 
@@ -182,43 +169,59 @@ html{
     color:black;
 }
 
-input{
-    height:20px;
-    
-    border:1px solid whitesmoke;
-    
-}
+
 
 input[type="button"]{
     cursor:pointer;
 }
 
-input[type="text"], textarea {
-
-  background-color : whitesmoke; 
-  border:1px solid silver;
-  
-}
-
-input[type="button"], textarea {
-
-  
-}
 
 
 
-select{
-    height:20px;
-}
+
 
 textarea{
     min-height:20px;
 }
 
 
+div.box{
+    border:1px solid silver;
+    width:90%;
+    float:left;
+    height:70px;
+    margin:30px;
+    padding:20px;
+    box-shadow: 2px 2px 2px #CCCCCC;
+  
+  
+}
 
+.mg{
+   float:left;
+   width:20%;
+  
+}
 
+.bb{
+   float:left;
+   width:75%;
+   margin:5px;
+   color:grey;
+}
 
+.bb:focus{
+   float:left;
+   width:75% !important;
+   color:grey;
+}
 
-
+div.option{
+   float:left;
+   width:100%;
+   margin:10px;
+   border:1px solid black;
+   
+  
+}
 
