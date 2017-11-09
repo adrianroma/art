@@ -1,3 +1,4 @@
+<style>
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -187,41 +188,64 @@ textarea{
 
 div.box{
     border:1px solid silver;
-    width:90%;
+    width:100%;
     float:left;
-    height:70px;
-    margin:30px;
-    padding:20px;
+    margin-top:5px;
+    padding:2px;
     box-shadow: 2px 2px 2px #CCCCCC;
   
   
 }
 
-.mg{
+.rowImage{
    float:left;
    width:20%;
   
 }
 
-.bb{
+.in{
    float:left;
    width:75%;
-   margin:5px;
+   margin:1px;
    color:grey;
 }
 
-.bb:focus{
+.in:focus{
    float:left;
    width:75% !important;
    color:grey;
 }
 
-div.option{
+span.row{
    float:left;
    width:100%;
-   margin:10px;
+   margin:1px;
+   padding:1px;
    border:1px solid black;
    
   
 }
+</style>
+<div class="box">
+  
+  <span class="row">
+  <p>HELP</p>  
+  </span>
+  <span class="row" >    
+  <input type="text" class="in" placeholder="HELP HELP" ><input class="in" type="text" placeholder="WAAP" >
+  </span>
+</div>
+
+
+
+
+<div class="box">
+  <span class="row">
+    <p>WORK</p>
+  </span>
+    <span class="row">
+    <p>WORK</p>
+  </span>
+  
+</div>
 
