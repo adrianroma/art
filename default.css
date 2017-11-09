@@ -197,11 +197,6 @@ div.box{
   
 }
 
-.rowImage{
-   float:left;
-   width:20%;
-  
-}
 
 .in{
    float:left;
@@ -221,18 +216,46 @@ span.row{
    width:100%;
    margin:1px;
    padding:1px;
-   border:1px solid black;
+   
    
   
 }
+
+span.row_input{
+  float:left;
+   width:auto;
+   height:auto;
+   margin:1px;
+   margin-top:1px;
+   margin-left:5px;
+   padding-left:10px;
+   margin-right:5px;
+   background-color:silver;
+   cursor:pointer;
+  }
+  
+ span.row_option{
+   
+   
+  }  
+  
+  .opt{
+    color:white;
+    margin:3px;
+    font-size:50%;
+    }
+  
+
 </style>
 <div class="box">
   
   <span class="row">
   <p>HELP</p>  
   </span>
-  <span class="row" >    
+  <span class="row" >  
+
   <input type="text" class="in" placeholder="HELP HELP" ><input class="in" type="text" placeholder="WAAP" >
+  
   </span>
 </div>
 
@@ -245,6 +268,16 @@ span.row{
   </span>
     <span class="row">
     <p>WORK</p>
+  </span>
+  <span class="row_input">
+  
+    <p>CALL<sup class="opt">&#9932;</sup></p>
+  
+  </span>
+    <span class="row_input">
+   
+    <p>SHOW<sup class="opt">&#9949;</sup></p>
+    
   </span>
   
 </div>
