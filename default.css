@@ -253,7 +253,7 @@ span.row_input{
     font-size:50%;
     }
   
-  #circle {
+  .circle {
     width: 30px;
     height:30px;
     float:left;
@@ -264,6 +264,7 @@ span.row_input{
     text-align:center;
     font-size:20px;
     padding:3px;
+    cursor:pointer;
 }
 
 
@@ -281,6 +282,16 @@ span.row_input{
      width:16px;
      float:left;
      
+  
+  }
+  
+  .tube-horizontal{
+    
+    
+  }
+  
+  .line-horizontal{
+    
   
   }
   
@@ -323,15 +334,15 @@ span.row_input{
   
 </div>
 <div class="box-vertical">
-<div id="circle"><p>1</p></div>
+<div class="circle"><p>1</p></div>
 <div class="tube-vertical">
        <div class="line-vertical"></div>
 </div>
-<div id="circle"><p>2</p></div>
+<div class="circle"><p>2</p></div>
 
 
 <div class="tube-vertical">
        <div class="line-vertical"></div>
 </div>
-<div id="circle"><p>3</p></div>
+<div class="circle"><p>3</p></div>
 </div>
