@@ -201,9 +201,16 @@ div.box-vertical{
     
     width:30px;
     float:left;
+    margin:5px;
   
    
   }
+div.box-horizontal{
+  
+    height:30px;
+    float:left;
+    margin:5px;
+  }  
 
 
 .in{
@@ -252,6 +259,13 @@ span.row_input{
     margin:3px;
     font-size:50%;
     }
+    
+    .chk{
+    color:black;
+    margin:3px;
+    font-size:50%;
+    text-align:right;
+    }  
   
   .circle {
     width: 30px;
@@ -265,6 +279,7 @@ span.row_input{
     font-size:20px;
     padding:3px;
     cursor:pointer;
+    box-shadow: 2px 2px 2px #CCCCCC;
 }
 
 
@@ -277,7 +292,7 @@ span.row_input{
 
 .line-vertical{
      border-radius: 0px 0px 0px 0px;
-     border-right:3px solid blue;
+     border-right:3px solid black;
      height:40px;
      width:16px;
      float:left;
@@ -286,14 +301,85 @@ span.row_input{
   }
   
   .tube-horizontal{
-    
+      border-radius: 0px 0px 0px 0px;
+      float:left;
+      height:30px;
+  
     
   }
   
   .line-horizontal{
-    
-  
+      border-radius: 0px 0px 0px 0px;
+      float:left;
+      
+      border-bottom:3px solid black;
+      height:16px;
+      width:40px;
   }
+  
+  
+  .options{
+     
+         border:1px solid silver;
+    width:auto;
+    height:auto;
+    float:left;
+    padding:0px;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    
+    }
+    
+    .options span{
+      float:left;
+      margin-top:0px;
+      width:100%;
+      height:auto;
+     
+      
+      }
+    
+    
+      .options .option-icon{
+       border-radius: 0px 0px 0px 0px;
+       text-align:center;
+       float:left;
+       height:30px;
+       font-size:15px;
+       padding:7px;
+       width:20%;
+       border-bottom: 1px solid silver;
+       cursor:pointer;
+       
+      }
+      
+    
+    .options .option{
+       border-radius: 0px 0px 0px 0px;
+       float:left;
+       text-align;center;
+       padding:7px;
+       height:30px;
+       font-size:15px;
+       width:50%;
+       border-bottom: 1px solid silver;
+       cursor:pointer; 
+      }
+     .options .option-state{
+       border-radius: 0px 0px 0px 0px;  
+       float:left;
+       padding:7px;
+       text-align:center;
+       height:30px;
+       font-size:10px;
+       border-bottom: 1px solid silver; 
+       width:30%;
+       cursor:pointer;
+      }
+      
+    
+  .multi-options{
+    
+    }    
   
 
 </style>
@@ -345,4 +431,27 @@ span.row_input{
        <div class="line-vertical"></div>
 </div>
 <div class="circle"><p>3</p></div>
+</div>
+
+
+
+<div class="box-horizontal">
+  <div class="circle"><p>10</p></div>
+  <div class="tube-horizontal">
+       <div class="line-horizontal"></div>
+  </div>
+   <div class="circle"><p>11</p></div>
+   <div class="tube-horizontal">
+       <div class="line-horizontal"></div>
+  </div>
+  <div class="circle"><p>12</p></div>
+  
+</div>
+
+
+
+<div class="options">
+  <span><p class="option-icon">&#8855;</p><p class="option">Option C </p><sup class="option-state" >&#10003;</sup></span>
+  <span><p class="option-icon">&#8855;</p><p class="option">Option A</p><sup class="option-state">&#10007;</sup></span>
+  <span><p class="option-icon">&#8855;</p><p class="option">You Can Help to this men</p><sup class="option-state">&#10007;</sup></span>
 </div>
